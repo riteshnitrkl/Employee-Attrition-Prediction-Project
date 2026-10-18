@@ -5,8 +5,8 @@ import pandas as pd
 import streamlit as st
 
 PROJECT_DIR = Path(__file__).resolve().parent
-DATA_PATH = PROJECT_DIR / "data" / "employee_attrition.csv"
-MODEL_PATH = PROJECT_DIR / "saved_models" / "top_8_LogisticRegression_Tuned.joblib"
+DATA_PATH = PROJECT_DIR / "employee_attrition.csv"
+MODEL_PATH = PROJECT_DIR / "top_8_LogisticRegression_Tuned.joblib"
 
 st.set_page_config(page_title="Employee Attrition Risk Predictor", page_icon="📊", layout="wide")
 
